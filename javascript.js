@@ -14,7 +14,7 @@ jQuery(function($) {
         query: $input.val(),
         prefixed: true,
         limit: 4,
-        filter: "(any type:/people/person type:/fictional_universe/fictional_character)",
+        filter: "(any type:/people/person type:/fictional_universe/fictional_character type:/music/musical_group)",
         key: "AIzaSyCPHGl6rT15yTi77BBFV8mlNHYICuZpFtc"
       },
       dataType: "jsonp"
