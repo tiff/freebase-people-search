@@ -35,6 +35,10 @@ jQuery(function($) {
     $list.empty();
     
     $.each(results, function(i, result) {
+      if (!result.name) {
+        return;
+      }
+      
       $listItem = $("<li>", {
         html: result.name
       });
